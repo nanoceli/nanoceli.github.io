@@ -496,6 +496,7 @@ mark,
 .embed{
   width: 400px;
   height: 422px;
+  position: inherit;
 }
 
 .modals{
@@ -510,6 +511,7 @@ mark,
 }
 
 #modal {
+  overflow:hidden;
   background: rgba(0, 0, 0, 0.9);
   color: #fff;
   position: fixed;

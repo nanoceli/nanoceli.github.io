@@ -487,14 +487,18 @@ mark,
   height: auto;
 }
 
-.modal-contenido{
-  background-color:aqua;
-  width:300px;
-  padding: 10px 20px;
-  margin: 20% auto;
+.modals-contenido{
+  width:260px;
+  margin: 75px auto;
   position: relative;
 }
-.modal{
+
+.embed{
+  width: 400px;
+  height: 422px;
+}
+
+.modals{
   background-color: rgba(0,0,0,.8);
   position:fixed;
   top:0;
@@ -504,6 +508,19 @@ mark,
   opacity:0;
   pointer-events:none;
 }
+
+#modal {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+
 #miModal:target{
   opacity:1;
   pointer-events:auto;
@@ -6198,7 +6215,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #4e5c6b !important;
+  background-color: #54677c !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,

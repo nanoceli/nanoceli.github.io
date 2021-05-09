@@ -10059,6 +10059,16 @@ hr.light {
   border-radius: 10rem;
 }
 
+.btn-xp {
+  /* padding: 1.25rem 2.25rem; */
+  padding: 0.5rem 1.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
 .page-section {
   padding: 6rem 0;
 }
